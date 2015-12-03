@@ -6,7 +6,7 @@ import os
 import sys
 
 # The Markdown processor.
-markdown = os.path.expanduser('~/bin/MultiMarkdown')
+markdown = os.path.expanduser('/usr/local/bin/multimarkdown')
 
 # Regular expressions. Note: the archive RE assumes that the Archive project
 # will be at the end of the file, which is where TaskPaper puts it.

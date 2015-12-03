@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bin=$HOME/Dropbox/bin/
+bin=/usr/local/bin/
 mkdir -p $HOME/Library/Scripts/Applications/TaskPaper
 cp Planner\ print.scpt $HOME/Library/Scripts/Applications/TaskPaper/
 cp html2ps $bin
