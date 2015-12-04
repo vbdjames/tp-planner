@@ -1,7 +1,6 @@
 /* Configuration file for html2ps. 
-   Meant for printing out on letter-sized paper and then
-   cutting down to 6x8 for inserting into a junior planner.
-*/
+ * Meant for printing out on index cards.
+ */
 
 @html2ps {
   option { twoup: 1; }
@@ -20,7 +19,7 @@ H2      { font-family: Helvetica;
 ul      { margin-left: 1.5em; }
 li      { margin-left: -.5em; }
 @page   { size: 8.5in 11in;
-          margin-left: .75in;
-          margin-right: 2.875in;
+          margin-left: 2in;
+          margin-right: 2.125in;
           margin-top: .25in;
           margin-bottom: 3.25in}
